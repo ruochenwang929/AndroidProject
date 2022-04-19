@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AssignmentDemo</string>
+    <string name="hint">Please input here</string>
+</resources>
