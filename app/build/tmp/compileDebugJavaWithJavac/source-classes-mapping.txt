@@ -1,6 +1,8 @@
-com/example/assignmentdemo/BuildConfig.java
- com.example.assignmentdemo.BuildConfig
 com/example/assignmentdemo/MainActivity.java
  com.example.assignmentdemo.MainActivity
  com.example.assignmentdemo.MainActivity$1
  com.example.assignmentdemo.MainActivity$2
+com/example/assignmentdemo/BuildConfig.java
+ com.example.assignmentdemo.BuildConfig
+com/example/assignmentdemo/databinding/ActivityMainBinding.java
+ com.example.assignmentdemo.databinding.ActivityMainBinding

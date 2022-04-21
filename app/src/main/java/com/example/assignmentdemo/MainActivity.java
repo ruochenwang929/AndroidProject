@@ -23,24 +23,20 @@ public class MainActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
-        Button reverseButton = findViewById(R.id.reverseBtn); //rep->id
-        Button clearButton = findViewById(R.id.clearBtn);
-        EditText editText = findViewById(R.id.editText);
-
-        reverseButton.setOnClickListener(new View.OnClickListener() {
+        binding.reverseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String userInput = editText.getText().toString();
+                String userInput = binding.editText.getText().toString();
                 //abc -> cba
                 String reverseStr = new StringBuilder(userInput).reverse().toString();
-                editText.setText(reverseStr);
+                binding.editText.setText(reverseStr);
             }
         });
 
-        clearButton.setOnClickListener(new View.OnClickListener() {
+        binding.clearBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText.setText("");
+                binding.editText.setText("");
             }
         });
     }
