@@ -20,7 +20,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.AssignmentDemo" >
         <activity
-            android:name="com.example.assignmentdemo.MainActivity"
+            android:name="com.example.assignmentdemo.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

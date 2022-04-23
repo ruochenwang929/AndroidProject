@@ -1031,6 +1031,9 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ivory
+color lemonchiffon
+color lightyellow
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1627,6 +1630,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1753,6 +1757,7 @@ id actions
 id activity_chooser_view_content
 id activity_main
 id add
+id addButton
 id alertTitle
 id aligned
 id all
@@ -1772,6 +1777,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1789,7 +1795,7 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
-id clearBtn
+id clearButton
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -1923,6 +1929,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id movieSpinner
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -1965,6 +1972,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordInputText
 id password_toggle
 id path
 id pathRelative
@@ -1978,7 +1986,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id reverseBtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2091,6 +2098,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameInputText
 id view_offset_helper
 id visible
 id withText
@@ -2158,6 +2166,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2288,6 +2297,8 @@ string hide_bottom_view_on_scroll_behavior
 string hint
 string icon_content_description
 string item_view_role_description
+string label1
+string label2
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection

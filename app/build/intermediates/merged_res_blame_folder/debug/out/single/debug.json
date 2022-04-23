@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/res/layout/activity_login.xml"
+    },
+    {
         "merged": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/merged_res/debug/drawable_background.xml.flat",
+        "source": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/res/drawable/background.xml"
     },
     {
         "merged": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
