@@ -2,10 +2,10 @@ com/example/assignmentdemo/MainActivity.java
  com.example.assignmentdemo.MainActivity
  com.example.assignmentdemo.MainActivity$1
  com.example.assignmentdemo.MainActivity$2
-com/example/assignmentdemo/databinding/ActivityLoginBinding.java
- com.example.assignmentdemo.databinding.ActivityLoginBinding
 com/example/assignmentdemo/BuildConfig.java
  com.example.assignmentdemo.BuildConfig
+com/example/assignmentdemo/databinding/ActivityLoginBinding.java
+ com.example.assignmentdemo.databinding.ActivityLoginBinding
 com/example/assignmentdemo/LoginActivity.java
  com.example.assignmentdemo.LoginActivity
 com/example/assignmentdemo/databinding/ActivityMainBinding.java

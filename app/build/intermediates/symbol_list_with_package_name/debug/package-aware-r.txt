@@ -1986,6 +1986,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerTextView
 id reverseSawtooth
 id right
 id rightToLeft

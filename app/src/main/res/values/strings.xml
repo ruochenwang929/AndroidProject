@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">AssignmentDemo</string>
     <string name="hint">Please input here</string>
-    <string name="label1">Username</string>
-    <string name="label2">Passsword</string>
+    <string name="hint1">Username</string>
+    <string name="hint2">First Name</string>
+    <string name="hint3">First Name</string>
+    <string name="hint4">First Name</string>
+    <string name="hint5">First Name</string>
+    <string name="hint6">First Name</string>
 </resources>
