@@ -4,13 +4,30 @@
             "outputFile": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/dylan/.gradle/caches/transforms-3/4f7fde6443b19e6ece3941e32d79f216/transformed/appcompat-1.2.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/dylan/.gradle/caches/transforms-3/a36df60b8e600f16cf923ba9ac92e536/transformed/appcompat-1.2.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
                         "startOffsets": "55,212",
                         "endColumns": "156,134",
                         "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/Users/dylan/.gradle/caches/transforms-3/cabc7bf9fcd04c9bc88fe0c2ed8f8af4/transformed/media-1.0.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
                     }
                 }
             ]

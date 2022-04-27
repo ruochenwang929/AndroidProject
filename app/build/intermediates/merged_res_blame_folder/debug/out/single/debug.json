@@ -60,6 +60,10 @@
         "source": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
         "merged": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
