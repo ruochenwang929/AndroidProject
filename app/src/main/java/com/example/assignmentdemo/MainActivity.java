@@ -1,19 +1,21 @@
 package com.example.assignmentdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.assignmentdemo.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -49,6 +51,31 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 binding.editText.setText("");
             }
+        });
+
+        //https://api.openweathermap.org/data/2.5/weather?lat=31.230391&lon=121.473701&appid=3bdb45244c9b2d4e6d4fbb5a5f176963
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://api.openweathermap.org/data/2.5/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
+        WeatherApiInterface weatherApiInterface = retrofit.create(WeatherApiInterface.class);
+
+        Call<Root> call = weatherApiInterface.getWeather();
+
+        call.enqueue(new Callback<Root>() {
+            @Override
+            public void onResponse(Call<Root> call, Response<Root> response) {
+                Root root = response.body();
+                double temp = root.getMain().getTemp()-273.15;
+                binding.tempTextView.setText(String.valueOf((int)temp));
+            }
+
+            @Override
+            public void onFailure(Call<Root> call, Throwable t) {
+                System.out.println(t.getMessage());
+            }
+
         });
     }
 }

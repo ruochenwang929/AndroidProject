@@ -46,8 +46,8 @@
 28-->/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/AndroidManifest.xml:15:13-55
 29        <activity
 29-->/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/AndroidManifest.xml:17:9-26:20
-30            android:name="com.example.assignmentdemo.LoginActivity"
-30-->/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/AndroidManifest.xml:18:13-42
+30            android:name="com.example.assignmentdemo.MainActivity"
+30-->/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/AndroidManifest.xml:18:13-41
 31            android:exported="true"
 31-->/Users/dylan/AndroidStudioProjects/AssignmentDemo/app/src/main/AndroidManifest.xml:19:13-36
 32            android:windowSoftInputMode="adjustResize" >
