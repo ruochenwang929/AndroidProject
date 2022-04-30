@@ -28,30 +28,30 @@ public class MainActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
-        List<String> list = new ArrayList<String>();
-        list.add("Toy Story");
-        list.add("Up");
-        list.add("Shrek");
-
-        final ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
-        binding.movieSpinner.setAdapter(spinnerAdapter);
-
-        binding.addButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                String newMovie=binding.editText.getText().toString(); //捕获用户的输入
-                spinnerAdapter.add(newMovie);       //加入到arraylist中
-                spinnerAdapter.notifyDataSetChanged(); //内容改变了就刷新，不需要通过重启app来刷新数据
-                binding.movieSpinner.setSelection(spinnerAdapter.getPosition(newMovie));
-                                    //强制更改选项内容，setSelection只能接受int值
-            }
-        });
-
-        binding.clearButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                binding.editText.setText("");
-            }
-        });
+//        List<String> list = new ArrayList<String>();
+//        list.add("Toy Story");
+//        list.add("Up");
+//        list.add("Shrek");
+//
+//        final ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
+//        binding.movieSpinner.setAdapter(spinnerAdapter);
+//
+//        binding.addButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                String newMovie=binding.editText.getText().toString(); //捕获用户的输入
+//                spinnerAdapter.add(newMovie);       //加入到arraylist中
+//                spinnerAdapter.notifyDataSetChanged(); //内容改变了就刷新，不需要通过重启app来刷新数据
+//                binding.movieSpinner.setSelection(spinnerAdapter.getPosition(newMovie));
+//                                    //强制更改选项内容，setSelection只能接受int值
+//            }
+//        });
+//
+//        binding.clearButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                binding.editText.setText("");
+//            }
+//        });
 
         //https://api.openweathermap.org/data/2.5/weather?lat=31.230391&lon=121.473701&appid=3bdb45244c9b2d4e6d4fbb5a5f176963
         Retrofit retrofit = new Retrofit.Builder()
