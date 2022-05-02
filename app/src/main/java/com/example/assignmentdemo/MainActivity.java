@@ -69,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
                 Root root = response.body();
                 double temp = root.getMain().getTemp()-273.15;
                 binding.tempTextView.setText(String.valueOf((int)temp));
+
+                String weatherMain = root.getWeather().toString();
+                binding.weatherTextView.setText(weatherMain);
+
             }
 
             @Override

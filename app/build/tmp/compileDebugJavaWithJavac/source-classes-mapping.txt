@@ -1,29 +1,29 @@
-com/example/assignmentdemo/Root.java
- com.example.assignmentdemo.Clouds
- com.example.assignmentdemo.Coord
- com.example.assignmentdemo.Main
- com.example.assignmentdemo.Root
- com.example.assignmentdemo.Sys
- com.example.assignmentdemo.Weather
- com.example.assignmentdemo.Wind
-com/example/assignmentdemo/databinding/ActivityMainBinding.java
- com.example.assignmentdemo.databinding.ActivityMainBinding
-com/example/assignmentdemo/WeatherApiInterface.java
- com.example.assignmentdemo.WeatherApiInterface
-com/example/assignmentdemo/databinding/ActivityLoginBinding.java
- com.example.assignmentdemo.databinding.ActivityLoginBinding
-com/example/assignmentdemo/databinding/ActivitySignupBinding.java
- com.example.assignmentdemo.databinding.ActivitySignupBinding
+com/example/assignmentdemo/BuildConfig.java
+ com.example.assignmentdemo.BuildConfig
 com/example/assignmentdemo/LoginActivity.java
  com.example.assignmentdemo.LoginActivity
  com.example.assignmentdemo.LoginActivity$1
+com/example/assignmentdemo/WeatherApiInterface.java
+ com.example.assignmentdemo.WeatherApiInterface
+com/example/assignmentdemo/Root.java
+ com.example.assignmentdemo.Root
+ com.example.assignmentdemo.Root$Clouds
+ com.example.assignmentdemo.Root$Coord
+ com.example.assignmentdemo.Root$Main
+ com.example.assignmentdemo.Root$Sys
+ com.example.assignmentdemo.Root$Weather
+ com.example.assignmentdemo.Root$Wind
+com/example/assignmentdemo/databinding/ActivitySignupBinding.java
+ com.example.assignmentdemo.databinding.ActivitySignupBinding
+com/example/assignmentdemo/databinding/ActivityLoginBinding.java
+ com.example.assignmentdemo.databinding.ActivityLoginBinding
 com/example/assignmentdemo/SignupActivity.java
  com.example.assignmentdemo.SignupActivity
  com.example.assignmentdemo.SignupActivity$1
  com.example.assignmentdemo.SignupActivity$2
  com.example.assignmentdemo.SignupActivity$3
-com/example/assignmentdemo/BuildConfig.java
- com.example.assignmentdemo.BuildConfig
+com/example/assignmentdemo/databinding/ActivityMainBinding.java
+ com.example.assignmentdemo.databinding.ActivityMainBinding
 com/example/assignmentdemo/MainActivity.java
  com.example.assignmentdemo.MainActivity
  com.example.assignmentdemo.MainActivity$1

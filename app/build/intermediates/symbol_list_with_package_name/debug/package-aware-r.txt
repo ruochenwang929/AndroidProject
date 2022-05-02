@@ -2301,6 +2301,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id weatherTextView
 id welcome_back_email_link_body
 id welcome_back_idp_button
 id welcome_back_idp_prompt
